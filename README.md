@@ -1,2 +1,3 @@
-# work_fz_tm
-work_fz_tm
+# Dis_GMWave2
+
+The Wave2 code project for GM

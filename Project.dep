@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>437850616</fileChecksum>
+    <configuration>
+        <name>SAMC21N18A</name>
+        <outputs>
+            <file>$PROJ_DIR$\User\driver\qtouch\include\qtm_binding_layer_0x0005_api.h</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\lib\iar\qtm_acq_samc21_0x0020.a</file>
+            <file>$PROJ_DIR$\CMSIS\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\include\qtm_touch_key_0x0002_api.h</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\driven_shield.h</file>
+            <file>$PROJ_DIR$\Device\startup\startup_samc21.c</file>
+            <file>$PROJ_DIR$\CMSIS\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\User\middle\adc\adc_if.c</file>
+            <file>$PROJ_DIR$\User\application\diagnostic\app_diagnostic_manage.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\license.h</file>
+            <file>$PROJ_DIR$\User\application\eeprom\app_eeprom.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\include\qtm_acq_samc21_0x0020_api.h</file>
+            <file>$PROJ_DIR$\User\application\etm\app_i2c_etm.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\lib\iar\qtm_binding_layer_cm0p_0x0005.a</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\driven_shield.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\touch.h</file>
+            <file>$PROJ_DIR$\User\driver\adc.c</file>
+            <file>$PROJ_DIR$\User\application\iic\app_iic_comm.c</file>
+            <file>$PROJ_DIR$\Device\system\system_samc21.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\lib\iar\qtm_touch_key_cm0p_0x0002.a</file>
+            <file>$PROJ_DIR$\User\application\led\app_led_ctrl.c</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\include\qtm_common_components_api.h</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\include\touch_api_ptc.h</file>
+            <file>$PROJ_DIR$\User\driver\qtouch\touch.c</file>
+            <file>$PROJ_DIR$\User\application\iic\app_i2c_dimming.c</file>
+            <file>$PROJ_DIR$\CMSIS\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\User\driver\flash.c</file>
+            <file>$PROJ_DIR$\User\driver\iic_slave.c</file>
+            <file>$PROJ_DIR$\User\middle\lcd\lcd_if.c</file>
+            <file>$PROJ_DIR$\User\middle\led\led_if.c</file>
+            <file>$PROJ_DIR$\User\config.h</file>
+            <file>$PROJ_DIR$\User\application\soak\app_soak_manage.c</file>
+            <file>$PROJ_DIR$\User\application\power\app_power_manage.c</file>
+            <file>$PROJ_DIR$\User\driver\rtc.c</file>
+            <file>$PROJ_DIR$\User\middle\sleep\sleep_if.c</file>
+            <file>$PROJ_DIR$\User\middle\flash\flash_if.c</file>
+            <file>$PROJ_DIR$\User\application\eeprom\eep_data.c</file>
+            <file>$PROJ_DIR$\User\driver\spi.c</file>
+            <file>$PROJ_DIR$\User\middle\filter\filter_if.c</file>
+            <file>$PROJ_DIR$\User\bsp\bsp_if.c</file>
+            <file>$PROJ_DIR$\User\driver\iic_master.c</file>
+            <file>$PROJ_DIR$\User\middle\power\power_if.c</file>
+            <file>$PROJ_DIR$\User\driver\clk.c</file>
+            <file>$PROJ_DIR$\User\application\thermal\app_thermal_manage.c</file>
+            <file>$PROJ_DIR$\User\driver\eic.c</file>
+            <file>$PROJ_DIR$\User\driver\eventsystem.c</file>
+            <file>$PROJ_DIR$\User\application\life\life.c</file>
+            <file>$PROJ_DIR$\User\main.c</file>
+            <file>$PROJ_DIR$\User\middle\clock\clk_if.c</file>
+            <file>$PROJ_DIR$\User\driver\driven_dmac.c</file>
+            <file>$PROJ_DIR$\User\middle\post\post_if.c</file>
+            <file>$PROJ_DIR$\User\driver\gpio.c</file>
+            <file>$PROJ_DIR$\User\common\crc.c</file>
+            <file>$PROJ_DIR$\User\application\scheduler\scheduler.c</file>
+            <file>$PROJ_DIR$\User\driver\delay.c</file>
+            <file>$PROJ_DIR$\User\common\buffer.c</file>
+            <file>$PROJ_DIR$\User\middle\deserializer\deserializer_if.c</file>
+            <file>$PROJ_DIR$\Device\instance\sercom2.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_thermal_manage.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter_if.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_soak_manage.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\touch_example.xcl</file>
+            <file>$PROJ_DIR$\User\driver\wdog.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_samc21.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_i2c_dimming.o</file>
+            <file>$PROJ_DIR$\Device\component\dmac.h</file>
+            <file>$PROJ_DIR$\Device\instance\gclk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic_slave.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\life.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\eep_data.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_led_ctrl.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\oscctrl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_thermal_manage.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_i2c_etm.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.xcl</file>
+            <file>$PROJ_DIR$\Device\component\ccl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\buffer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\tcc.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\sercom1.h</file>
+            <file>$PROJ_DIR$\Device\instance\tcc0.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\eventsystem.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\deserializer_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_if.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_iic_comm.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\eventsystem.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\deserializer_if.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_eeprom.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\sercom0.h</file>
+            <file>$PROJ_DIR$\Device\instance\sercom5.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sleep_if.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\pac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\scheduler.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\osc32kctrl.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Project.out</file>
+            <file>$PROJ_DIR$\Device\pio\samc21n18a.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk_if.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_power_manage.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_soak_manage.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\tsens.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_if.o</file>
+            <file>$PROJ_DIR$\Device\instance\hmatrixhs.h</file>
+            <file>$PROJ_DIR$\Device\instance\rstc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic_master.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\eic.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\sercom3.h</file>
+            <file>$PROJ_DIR$\Device\instance\dsu.h</file>
+            <file>$PROJ_DIR$\Device\component\pm.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_wdt_config.h</file>
+            <file>$PROJ_DIR$\Device\component\rstc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.o</file>
+            <file>$PROJ_DIR$\Device\instance\evsys.h</file>
+            <file>$PROJ_DIR$\Device\instance\ac.h</file>
+            <file>$PROJ_DIR$\Device\component\sercom.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_samc21.xcl</file>
+            <file>$PROJ_DIR$\Device\component\mtb.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk_if.xcl</file>
+            <file>$PROJ_DIR$\Device\component\adc.h</file>
+            <file>$PROJ_DIR$\Device\instance\can1.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc.xcl</file>
+            <file>$PROJ_DIR$\Device\component\hmatrixb.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog.o</file>
+            <file>$PROJ_DIR$\Device\instance\can0.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sleep_if.o</file>
+            <file>$PROJ_DIR$\Device\component\tsens.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driven_shield.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\touch.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\driven_dmac.xcl</file>
+            <file>$PROJ_DIR$\Device\component\pac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Device\instance\dac.h</file>
+            <file>$PROJ_DIR$\Device\component\dsu.h</file>
+            <file>$PROJ_DIR$\Device\instance\ccl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_power_manage.xcl</file>
+            <file>$PROJ_DIR$\Device\component\rtc.h</file>
+            <file>$PROJ_DIR$\Device\component\gclk.h</file>
+            <file>$PROJ_DIR$\Device\component\evsys.h</file>
+            <file>$PROJ_DIR$\Device\component\tcc.h</file>
+            <file>$PROJ_DIR$\Device\instance\divas.h</file>
+            <file>$PROJ_DIR$\Device\component\eic.h</file>
+            <file>$PROJ_DIR$\Device\instance\adc0.h</file>
+            <file>$PROJ_DIR$\User\driver\flash.h</file>
+            <file>$PROJ_DIR$\User\middle\sys\sys_if.h</file>
+            <file>$PROJ_DIR$\User\application\thermal\app_thermal_manage.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_samc21.o</file>
+            <file>$PROJ_DIR$\User\driver\gpio.h</file>
+            <file>$PROJ_DIR$\Device\instance\dmac.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Device\component\tc.h</file>
+            <file>$PROJ_DIR$\Device\component\osc32kctrl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tcc.o</file>
+            <file>$PROJ_DIR$\Device\instance\freqm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\eic.o</file>
+            <file>$PROJ_DIR$\User\middle\led\led_if.h</file>
+            <file>$PROJ_DIR$\Device\component\port.h</file>
+            <file>$PROJ_DIR$\Device\component\mclk.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_if.o</file>
+            <file>$PROJ_DIR$\Device\component\can.h</file>
+            <file>$PROJ_DIR$\Device\system\system_samc21.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Device\component\sdadc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_if.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\samc20x18\flash.icf</file>
+            <file>$PROJ_DIR$\Device\component\dac.h</file>
+            <file>$PROJ_DIR$\Device\instance\eic.h</file>
+            <file>$PROJ_DIR$\User\application\led\app_led_ctrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Device\instance\adc1.h</file>
+            <file>$PROJ_DIR$\Device\component\divas.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\User\middle\adc\adc_if.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\post_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\life.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\driven_dmac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\eep_data.o</file>
+            <file>$PROJ_DIR$\Device\component\wdt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\post_if.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\touch.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc.o</file>
+            <file>$PROJ_DIR$\Device\component\oscctrl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer_if.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\driven_shield.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter_if.o</file>
+            <file>$PROJ_DIR$\Device\component\supc.h</file>
+            <file>$PROJ_DIR$\User\driver\spi.h</file>
+            <file>$PROJ_DIR$\User\driver\config\peripheral_clk_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd_if.o</file>
+            <file>$PROJ_DIR$\User\application\soak\app_soak_manage.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_if.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Device\component\ac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_diagnostic_manage.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\scheduler.o</file>
+            <file>$PROJ_DIR$\User\middle\post\post_if.h</file>
+            <file>$PROJ_DIR$\User\application\etm\app_i2c_etm.h</file>
+            <file>$PROJ_DIR$\User\common\crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic_slave.o</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_gclk_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_samc21.xcl</file>
+            <file>$PROJ_DIR$\User\middle\clock\clk_if.h</file>
+            <file>$PROJ_DIR$\User\driver\adc.h</file>
+            <file>$PROJ_DIR$\User\middle\filter\filter_if.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc6.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_tc_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Device\component\nvmctrl.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_sercom_config.h</file>
+            <file>$PROJ_DIR$\User\driver\iic_slave.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_adc_config.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_dmac_config.h</file>
+            <file>$PROJ_DIR$\Device\instance\sercom7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\touch_example.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_if.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Device\samc21n18a.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic_master.o</file>
+            <file>$PROJ_DIR$\User\bsp\bsp_if.h</file>
+            <file>$PROJ_DIR$\User\driver\tc.h</file>
+            <file>$PROJ_DIR$\Device\component\freqm.h</file>
+            <file>$PROJ_DIR$\User\middle\touch\touch_example.h</file>
+            <file>$PROJ_DIR$\User\application\iic\app_iic_comm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_if.o</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_nvmctrl_config.h</file>
+            <file>$PROJ_DIR$\User\middle\flash\flash_if.h</file>
+            <file>$PROJ_DIR$\Device\instance\sercom6.h</file>
+            <file>$PROJ_DIR$\User\driver\tcc.h</file>
+            <file>$PROJ_DIR$\User\middle\power\power_if.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc3.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_evsys_config.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc5.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc0.h</file>
+            <file>$PROJ_DIR$\User\driver\rtc.h</file>
+            <file>$PROJ_DIR$\Device\sam.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\User\driver\driven_dmac.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_mclk_config.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc4.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_tcc_config.h</file>
+            <file>$PROJ_DIR$\User\driver\iic_master.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc1.h</file>
+            <file>$PROJ_DIR$\User\common\buffer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Device\instance\nvmctrl.h</file>
+            <file>$PROJ_DIR$\User\application\life\life.h</file>
+            <file>$PROJ_DIR$\User\driver\wdog.c</file>
+            <file>$PROJ_DIR$\User\middle\deserializer\deserializer_if.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_i2c_dimming.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\User\middle\sys\sys_if.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
+            <file>$PROJ_DIR$\User\middle\timer\timer_if.h</file>
+            <file>$PROJ_DIR$\Device\instance\wdt.h</file>
+            <file>$PROJ_DIR$\Debug\List\Project.map</file>
+            <file>$PROJ_DIR$\User\driver\tcc.c</file>
+            <file>$PROJ_DIR$\User\middle\timer\timer_if.c</file>
+            <file>$PROJ_DIR$\Device\instance\ptc.h</file>
+            <file>$PROJ_DIR$\Device\instance\tc2.h</file>
+            <file>$PROJ_DIR$\User\middle\touch\touch_example.c</file>
+            <file>$PROJ_DIR$\Device\instance\sdadc.h</file>
+            <file>$PROJ_DIR$\User\application\scheduler\scheduler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\power_if.o</file>
+            <file>$PROJ_DIR$\User\application\eeprom\app_eeprom.h</file>
+            <file>$PROJ_DIR$\Device\instance\rtc.h</file>
+            <file>$PROJ_DIR$\Device\samc21.h</file>
+            <file>$PROJ_DIR$\User\driver\tc.c</file>
+            <file>$PROJ_DIR$\User\middle\wdog\wdog_if.c</file>
+            <file>$PROJ_DIR$\User\application\diagnostic\app_diagnostic_manage.h</file>
+            <file>$PROJ_DIR$\User\application\iic\app_i2c_dimming.h</file>
+            <file>$PROJ_DIR$\User\driver\uart.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\User\driver\delay.h</file>
+            <file>$PROJ_DIR$\User\middle\lcd\lcd_parameter.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_eic_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_diagnostic_manage.o</file>
+            <file>$PROJ_DIR$\Device\instance\supc.h</file>
+            <file>$PROJ_DIR$\Device\instance\port.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\buffer.o</file>
+            <file>$PROJ_DIR$\Device\instance\tc7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Device\instance\mclk.h</file>
+            <file>$PROJ_DIR$\User\driver\clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_i2c_etm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog.xcl</file>
+            <file>$PROJ_DIR$\Device\instance\pm.h</file>
+            <file>$PROJ_DIR$\User\application\power\app_power_manage.h</file>
+            <file>$PROJ_DIR$\User\middle\sleep\sleep_if.h</file>
+            <file>$PROJ_DIR$\Device\instance\mtb.h</file>
+            <file>$PROJ_DIR$\Device\instance\tcc1.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_iic_comm.o</file>
+            <file>$PROJ_DIR$\Device\instance\tcc2.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\User\driver\eic.h</file>
+            <file>$PROJ_DIR$\User\driver\uart.h</file>
+            <file>$PROJ_DIR$\User\driver\config\hpl_rtc_config.h</file>
+            <file>$PROJ_DIR$\User\middle\lcd\lcd_if.h</file>
+            <file>$PROJ_DIR$\User\application\eeprom\eep_data.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_eeprom.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\Project.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_if.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\tc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_led_ctrl.o</file>
+            <file>$PROJ_DIR$\Device\instance\sercom4.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 105 278</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Device\startup\startup_samc21.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\adc\adc_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 235</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 187 237 226 223 234 267 258 245 221 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\diagnostic\app_diagnostic_manage.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 300</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 292 237 226 223 234 267 258 183 171 210 157 245 168 323 251 287 268 324 313 158 182 271 266</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\eeprom\app_eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 237 226 223 234 267 258 245 175 171 183 210 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 324 287 248 216</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\etm\app_i2c_etm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 310</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 183 226 223 234 267 258 171 210 61 259 215 237 175 266 245 157 271 287 268 324 323 168 182 158 313 216</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\qtouch\driven_shield.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 257 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 206 15 22 21 175 171 0 11 3 9 245 241 260</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 218 261 206 228 230 221 160 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\iic\app_iic_comm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 317</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 183 226 223 234 267 258 171 210 61 259 157 245 244 237 266 216 287 268 324 271 296 215 175 314 168 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Device\system\system_samc21.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\led\app_led_ctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 329</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 183 226 223 234 267 258 171 210 168 245 237 182 187 313 208 158 244 266 216 287 268 324 271 293</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\qtouch\touch.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 22 21 237 226 223 234 267 258 175 171 0 11 3 9 245 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 241 4 257 206</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\iic\app_i2c_dimming.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 272</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 244 237 226 223 234 267 258 266 245 216 287 268 324 271 293 323 313</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 247 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\iic_slave.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 160 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245 206 228 229 61 171 259</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\lcd\lcd_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 323 237 226 223 234 267 258 245 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 205 296 183 171 210 297</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\led\led_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 168 245 237 226 223 234 267 258 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 160 241 175 171 264 296</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\soak\app_soak_manage.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 208 245 237 226 223 234 267 258</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\power\app_power_manage.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 313 237 226 223 234 267 258 245 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237 226 223 234 267 258 273 171 30 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 206 322 256</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\sleep\sleep_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 314 237 226 223 234 267 258 245 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 296 157 320 276 241 175 171 168 271 266 323 251 187 222 215</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\flash\flash_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 156 237 226 223 234 267 258 248</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\eeprom\eep_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 237 226 223 234 267 258 245 175 171 268 287 324</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 160 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245 205 228 206 296</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\filter\filter_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 237 226 223 234 267 258 273 171 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 222 245 160 296 314</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\bsp\bsp_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 240 220 251 245 187 314 287 324 214 222 271 266 244 216 241 175 171 250 206</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\iic_master.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 228 206 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 264</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\power\power_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 160 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245 296 241 175 171 271 266 251</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 306</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 218 261 206 309</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\thermal\app_thermal_manage.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 61 226 223 234 267 258 171 259 158 237 245 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\eic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61 226 223 234 267 258 171 259 30 238 237 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 206 299 160 245 320</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\eventsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237 226 223 234 267 258 125 206 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 253</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\life\life.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 245 175 226 223 234 267 258 171 238 237 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 296 269 276 241 285 314 182 168 323 287 324 214 244 266 216 271 293 215 222 313 251 158 208 292 183 210 256 160 15 22 21 0 11 3 243</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240 30 220 251 237 226 223 234 267 258 245 187 314 287 268 324 214 222 271 266 244 216 241 175 171 250 206 285 269</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\clock\clk_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 220 309 237 226 223 234 267 258 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\driven_dmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 30 175 171 231 260 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\post\post_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 214 245 216</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 160 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\common\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 216 237 226 223 234 267 258 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\application\scheduler\scheduler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 273 226 223 234 267 258 171 238 237 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 285 245 256 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 305</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 296</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\common\buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 303</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 61 226 223 234 267 258 171 259 266 237 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\deserializer\deserializer_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 271 245 237 226 223 234 267 258 266 296 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 183 171 210 61 259 229 264 241 175</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 326</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 179 202 114 300 325 68 310 317 329 110 62 59 93 303 306 107 67 305 96 191 139 192 167 95 203 124 236 140 239 217 207 246 189 186 195 286 1 13 19 198 213 137 190 65 172 159 196 165 200 141 233 144 135 209 307 295 319 298</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\wdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 311</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 206 122 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\sys\sys_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 157 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\tcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 160 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245 250 206 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\timer\timer_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276 241 175 226 223 234 267 258 171 237 245 225 206 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\touch\touch_example.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243 245 237 226 223 234 267 258 160 238 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\tc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 328</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 160 238 237 226 223 234 267 258 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 245 225 206 241 175 171 4 257 15 22 21 0 11 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\middle\wdog\wdog_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 327</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\driver\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 273 226 223 234 267 258 171 30 238 237 25 6 162 178 2 174 211 131 173 85 180 185 69 146 154 151 242 150 134 170 129 227 199 164 143 121 169 123 149 176 127 204 163 152 138 193 126 155 184 136 132 147 145 153 161 120 181 125 166 70 115 308 315 268 78 104 101 312 302 281 116 288 284 98 89 57 119 330 99 249 232 301 255 265 282 252 262 254 224 304 90 316 318 112 277 106 206 228 160 245 321</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
